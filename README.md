@@ -79,7 +79,7 @@ List down the Dropdown of the list of states
 
 ### `live deployment`
 
- `https://ravibarla.github.io/simple-dropdown/`
+ https://ravibarla.github.io/simple-dropdown/
 
 ### `App is built using`:-
 
