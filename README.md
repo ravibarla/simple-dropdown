@@ -81,8 +81,8 @@ List down the Dropdown of the list of states
 
  `https://ravibarla.github.io/simple-dropdown/`
 
-### 
-<br>
+### `App is built using`:-
+
 <br>i. Bootstrap  
 <br>ii. React
 
