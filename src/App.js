@@ -16,9 +16,9 @@ function App() {
   const [stateSelected, setStateSelection] = useState("");
   //logic when to display the drop down item
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  //handle function when to display dropdown 
+  //handle function when to display dropdown
   const handleMouseOver = () => setDropdownOpen(true);
-  //handle function when to close dropdown 
+  //handle function when to close dropdown
   const handleMouseOut = (state) => {
     setStateSelection(state);
     setDropdownOpen(false);
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <div
-        className={`dropdown ${isDropdownOpen ? "show" : ""}`}
+        className={`dropdown ${isDropdownOpen ? "show" : ""} mt-5`}
         onMouseOver={handleMouseOver}
       >
         <button
@@ -46,7 +46,7 @@ function App() {
           <Lists ListItem={ListItem} handleMouseOut={handleMouseOut} />
         </div>
       </div>
-      <div>{stateSelected}</div>
+      <div className="mt-5">{stateSelected}</div>
     </div>
   );
 }
