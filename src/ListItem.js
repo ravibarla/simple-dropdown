@@ -1,7 +1,12 @@
 function ListItems(props) {
-  const { listItem } = props;
+  const { listItem, index, handleMouseOut } = props;
   return (
-    <a className="dropdown-item" href={() => false}>
+    <a
+      key={index}
+      className="dropdown-item"
+      href={() => false}
+      onClick={()=>handleMouseOut(listItem)}
+    >
       {listItem}
     </a>
   );

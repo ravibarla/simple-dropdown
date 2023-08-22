@@ -1,12 +1,12 @@
 import ListItem from "./ListItem";
 
 function Lists(props) {
-  const { ListItem: dropdownItem } = props;
+  const { ListItem: dropdownItem,handleMouseOut } = props;
 
   return dropdownItem.map((item, index) => (
-    <li key={index}>
-      <ListItem listItem={item} index={index} />
-    </li>
+   
+      <ListItem listItem={item} index={index} handleMouseOut={handleMouseOut}/>
+    
   ));
 }
 export default Lists;
