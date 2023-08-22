@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `App Description`
+
+This is a simple-dropdown app of states
+
+### `functionality`
+
+List down the Dropdown of the list of states 
+
+### `live deployment`
+
+ `https://ravibarla.github.io/simple-dropdown/`
+
+### 
+<br>
+<br>i. Bootstrap  
+<br>ii. React
+
