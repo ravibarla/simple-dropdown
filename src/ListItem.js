@@ -5,7 +5,7 @@ function ListItems(props) {
       key={index}
       className="dropdown-item"
       href={() => false}
-      onClick={()=>handleMouseOut(listItem)}
+      onClick={() => handleMouseOut(listItem)}
     >
       {listItem}
     </a>

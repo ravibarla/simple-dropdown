@@ -3,8 +3,8 @@ import "./App.css";
 import Lists from "./Lists";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min"; // Import Bootstrap JS
-// import './DropdownExample.css';
 function App() {
+  //Dropdown lists
   const [ListItem] = useState([
     "Delhi",
     "Jharkhand",
@@ -12,11 +12,14 @@ function App() {
     "Bihar",
     "Rajasthan",
   ]);
+  //selected list
   const [stateSelected, setStateSelection] = useState("");
+  //logic when to display the drop down item
   const [isDropdownOpen, setDropdownOpen] = useState(false);
+  //handle function when to display dropdown 
   const handleMouseOver = () => setDropdownOpen(true);
+  //handle function when to close dropdown 
   const handleMouseOut = (state) => {
-    console.log("state :", state);
     setStateSelection(state);
     setDropdownOpen(false);
   };
@@ -25,7 +28,6 @@ function App() {
       <div
         className={`dropdown ${isDropdownOpen ? "show" : ""}`}
         onMouseOver={handleMouseOver}
-        // onMouseOut={handleMouseOut}
       >
         <button
           className="btn btn-secondary dropdown-toggle"
